@@ -1,40 +1,49 @@
 body{
-    background-color: gray;
+    background-color: black;
+    color: orangered;
 }
 
 .header{
     color: white;
     margin: 25px auto;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 
 .calculator{
-    border: 2px solid red; 
+    border: 2px solid gray; 
+    border-radius: 5px;
     height: 500px;
     width: 400px;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
     margin: 0 auto;
+    background-color: gray;
     
 }
 
 .display{
-    border: 2px dotted red;
-    height: 200px;
+    height: 175px;
     font-size: 50px;
+    color: azure;
+    background-color: grey;
+    font-size: 40px;
+    padding: 10px;
 }
 
 .input{
-    border: 2px dotted blue;
+    border-radius: 5px;
     height: 100px;
     background-color: white;
+    font-size: 20px;
+    padding: 10px;
 }
 
 .buttons{
-    border: 2px dotted red;
+    
     height: 250px;
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -44,12 +53,15 @@ body{
 .buttons div{
     border: 1px dotted black;
     background-color: aliceblue;
+    border-radius: 5px;
+    font-size: 18px;
 }
 
-.buttonEqual{
-    background-color: coral;
+#eq{
+    background-color: orangered;
     grid-column-start: 3;
     grid-column-end: 5;
+    color: white;
 }
 
 .bottom-button{
