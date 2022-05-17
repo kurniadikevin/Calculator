@@ -1,0 +1,58 @@
+body{
+    background-color: gray;
+}
+
+.header{
+    color: white;
+    margin: 25px auto;
+    text-align: center;
+}
+
+
+
+.calculator{
+    border: 2px solid red; 
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin: 0 auto;
+    
+}
+
+.display{
+    border: 2px dotted red;
+    height: 200px;
+    font-size: 50px;
+}
+
+.input{
+    border: 2px dotted blue;
+    height: 100px;
+    background-color: white;
+}
+
+.buttons{
+    border: 2px dotted red;
+    height: 250px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: aliceblue;
+}
+
+.buttons div{
+    border: 1px dotted black;
+    background-color: aliceblue;
+}
+
+.buttonEqual{
+    background-color: coral;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.bottom-button{
+    height: 62.5px;
+    display: flex;
+}
